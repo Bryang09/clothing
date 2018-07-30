@@ -5,7 +5,7 @@ import ClothingNavBar from '../../Clothing_NavBar/Clothing_NavBar';
 
 // import './Tops_Single.css';
 
-class Single_Top extends Component {
+class SingleTop extends Component {
   state = { active: [], activeColor: [], activeState: ["Add To Cart"] }
 
   sizeData = [
@@ -93,4 +93,4 @@ class Single_Top extends Component {
   }
 }
 
-export default Single_Top;
+export default SingleTop;
