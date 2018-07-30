@@ -1,0 +1,148 @@
+.Clothing_Contain {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Clothing_Intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 0;
+}
+
+.Clothing_Intro hr {
+  width: 20%;
+  border: 1px solid #2196f3;
+}
+
+.Clothing_Intro h1 {
+  font-size: 55px;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center
+}
+.Clothing_Style {
+  margin: 15px 0;
+  min-width: 20%;
+  max-width: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+.Clothing_Content_ {
+  min-width: 80%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Clothing_Sort {
+  display: flex;
+  justify-content: center;
+}
+
+.Clothing_Sort ul {
+  display: flex;
+}
+
+.Clothing_Sort li {
+  list-style: none;
+  margin: 0 25px;
+  border: 1px solid #42a5f5;
+  padding: 15px 35px;
+  border-radius: 35px;
+}
+
+.Clothing_Sort li:hover {
+  background-color: #42a5f5;
+  color: white;
+  cursor: pointer;
+}
+
+.idk {
+  display: flex;
+  margin: 15px auto;
+  max-width: 100%;
+  flex-wrap: wrap;
+  padding-left: 25px;
+  
+}
+
+.Clothing_Content_ {
+  min-width: 80%;
+}
+
+.Clothing_Intro h2,
+.Clothing_Intro h1  {
+  text-align: center;
+  color: #141823;
+}
+
+.Clothing_Contain_Content {
+  display: flex;
+  margin: 15px auto;
+  max-width: 100%;
+  flex-wrap: wrap;
+  padding-left: 25px;
+}
+
+
+@media screen and ( max-width: 1789px) {
+  .Clothing_Style{
+    min-width: 25%;
+  }
+}
+
+@media screen and ( max-width: 1458px) {
+  .Clothing_Style {
+    min-width: 33%;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  .Clothing_Contain {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and ( max-width: 1036px) {
+  .Clothing_Style {
+    min-width: 45%;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .NoOverflow
+  {
+    overflow: hidden;
+  }
+}
+@media screen and ( max-width: 679px) {
+  .Clothing_Style {
+    min-width: 80%;
+    margin: 0 auto;
+
+  }
+  .Clothing_Sort li {
+    margin: 5px 15px;
+    font-size: 12px;
+  }
+  .Clothing_Sort ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+ .Clothing_Contain_Content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+  /* .Clothing_Single_Item img{
+    transform: translateX(-5%)
+  } */
+}

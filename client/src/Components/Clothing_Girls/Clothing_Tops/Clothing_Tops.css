@@ -1,0 +1,67 @@
+.Clothing_Intro_G {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 0;
+}
+
+.Clothing_Intro_G hr {
+  width: 20%;
+  border: 1px solid #f48fb1;
+}
+
+.Clothing_Intro_G h1 {
+  font-size: 55px;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center
+}
+.Clothing_Sort_G {
+  display: flex;
+  justify-content: center;
+}
+
+.Clothing_Sort_G ul {
+  display: flex;
+}
+
+.Clothing_Sort_G li {
+  list-style: none;
+  margin: 0 25px;
+  border: 1px solid #f48fb1;
+  padding: 15px 35px;
+  border-radius: 35px;
+}
+
+.Clothing_Sort_G li:hover {
+  background-color: #f48fb1;
+  color: white;
+  cursor: pointer;
+}
+
+.Top img {
+  background-color: lightgray;
+}
+@media screen and ( max-width: 679px) {
+  .Clothing_Sort_G li {
+    margin: 5px 15px;
+    font-size: 12px;
+  }
+  .Clothing_Sort_G ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+ .Clothing_Contain_Content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+  /* .Clothing_Single_Item img{
+    transform: translateX(-5%)
+  } */
+  .idk {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,22 @@
+.Clothing_Single_Item {
+  width: 100%;
+  margin: 15px;
+  box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
+}
+
+.Clothing_Single_Item img {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  z-index: -1;
+}
+
+@media screen and ( max-width: 1301px ) {
+  .Clothing_Single_Item {
+    margin: 5px;    
+    padding-left: 0;
+
+  }
+
+}

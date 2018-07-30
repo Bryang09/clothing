@@ -1,0 +1,116 @@
+.Home_Main_Pic {
+  max-width: 100%;
+  min-width: 100%;
+  display: flex;
+
+}
+.Home_Main_Pic img {
+  max-width: 90%;
+  min-width: 90%;
+  max-height: 850px;
+  margin: 0 auto 10px auto;
+}
+
+.Clothing_Row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 88%;
+  min-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Home_Row {
+  max-width: 50%;
+  min-width: 50%;
+  box-shadow: 1px 1px 8px black;
+  position: relative;
+  opacity: .70;
+}
+
+.Home_Row:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.Home_Row img {
+  max-width: 40%;
+  min-width: 40%;
+  min-height: 350px;
+  max-height: 350px;
+  z-index: -1;
+}
+
+.Home_Description {
+  width: 100%;
+  background-color: black;
+  z-index: 1; 
+  position: absolute;
+  bottom: 0;
+  opacity: .6;
+
+}
+.Home_Description h4 {
+  color: #fff;
+  margin: .5em 0;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+} 
+#Guys_Shirt {
+  /* border: 1px solid black; */
+  background-color: lightblue;
+  
+}
+
+#Guys_Pants {
+  /* border: 1px solid black; */
+  background-color: salmon;
+}
+
+#Guys_Shoes {
+  background-color: lightgreen;
+}
+
+#Girls_Link {
+  background-color: lightpink;
+}
+
+@media screen and (max-width: 918px) {
+  .Clothing_Row {
+    max-width: 80%;
+    min-width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Clothing_Row {
+    max-width: 85%;
+    min-width: 85%;
+  }
+}
+
+
+@media screen and (max-width: 664px) {
+  .Clothing_Row {
+    max-width: 95%;
+    min-width: 95%;
+  }
+  .Home_Description h4 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 571px) {
+  .Clothing_Row {
+    display: flex;
+    flex-direction: column;
+  }
+  .Home_Row {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .Home_Main_Pic img {
+    max-height: 500px ;
+    min-height: 250px ;
+    min-width: 95% ;
+    max-width: 95%;
+  }
+}

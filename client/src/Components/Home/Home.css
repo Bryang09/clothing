@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+
+.Clothing_Home {
+  text-align: center;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Clothing_Home h1 {
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.Clothing_Home hr {
+  max-width: 50%;
+  border: 1px solid #42a5f5;
+}
+
+.Clothing_Home_ {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.Clothing_shirts {
+  max-width: 30%;
+  max-height: 520px;
+  background-color: #42a5f5;
+  margin: 10px;
+  box-shadow: 2px 1px 6px #000;
+}
+.Clothing_shirts img {
+  max-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: .85;
+}
+.Clothing_pants {
+  min-width: 30%;
+  max-height: 520px;
+  background-color: lightcoral;
+  margin: 10px;
+  box-shadow: 2px 1px 6px #000;
+
+}
+.Clothing_pants img {
+  max-width: 100%;
+  max-height: 520px;
+  z-index: -1;
+  opacity: .85;
+}
+.Clothing_shoes {
+  max-width: 30%;
+  max-height: 520px;
+  background-color: lightgreen;
+  margin: 10px;
+  box-shadow: 2px 1px 6px #000;
+
+}
+
+.Clothing_shoes img {
+  max-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: .85;
+}
+
+.Clothing_Button ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.Clothing_Button li {
+  border: 1px solid #42a5f5;
+  border-radius: 25px;
+  padding: 10px;
+  width: 250px;
+  font-size: 25px;
+  color: #fff;
+  background-color: #42a5f5;
+  margin-top: 10px;
+}
+
+
+.Clothing_Button a {
+  text-decoration: none;
+  color: #fff;
+}
+.Clothing_Button a:visited {
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .Clothing_Home_ {
+    display: flex;
+    flex-direction: column;
+  }
+    .Clothing_shirts {
+      min-width: 100%;
+    }
+    .Clothing_shirts img {
+      max-height: 550px;
+    }
+    .Clothing_pants {
+      min-width: 100%;
+    }
+    .Clothing_shoes {
+      min-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    .Clothing_Home,
+    .Home_Main_Container
+    {
+      overflow: hidden;
+    }
+  }

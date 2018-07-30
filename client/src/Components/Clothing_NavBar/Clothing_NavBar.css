@@ -1,0 +1,83 @@
+.Clothing_NavBar {
+  display: flex;
+  background-color: #eeeeee;
+  letter-spacing: 1.5px;
+  justify-content: flex-start;
+  opacity: .75;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Clothing_NavBar h2 {
+  font-size: 22px;
+  padding-left: 8px;
+  width: 40%;
+}
+
+.Clothing_NavBar a {
+  text-decoration: none;
+  opacity: .75;
+  color: #000;
+}
+.Clothing_NavBar a:visited {
+  color: black;
+}
+.Clothing_NavBar a:hover {
+  opacity: 1;
+  color: #42a5f5;
+}
+
+
+.Clothing_NavBar h3 {
+  float: right;
+  padding-right: 10px;
+  margin: 25px;
+  display: flex;
+}
+
+.Clothing_Navigation {
+  width: 60%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.Clothing_Navigation h3 {
+  float: right;
+}
+
+@media screen and (max-width: 740px) {
+  .Clothing_NavBar {
+      display: flex;
+      flex-direction: column;
+      /* width: 100%; */
+      margin: 0;
+      padding: 0;
+  }
+  .Clothing_NavBar h2 {
+      text-align: center;
+      width: 100%;
+  }
+  .Clothing_NavBar h3 {
+      display: flex;
+      /* width: 100%; */
+      text-align: center;
+      padding: 0;
+  }
+  .Clothing_Navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 99%;
+      align-items: center;
+      margin: 0;
+      text-align: center;
+  }
+}   
+
+@media screen and (max-width: 400px) {
+  .Clothing_NavBar h3 {
+      font-size: 15px;
+      margin: 15px;
+  }
+}
