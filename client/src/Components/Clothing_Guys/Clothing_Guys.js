@@ -37,7 +37,7 @@ class Guys extends Component {
       {
         key: 3,
         link: "/girls",
-        src: "http://riverbanksmiles.com/wp-content/uploads/2017/01/1dsp-20151222-beauty011.png",
+        src: "https://i2.wp.com/www.datelikeawoman.com/wp-content/uploads/2017/08/iStock-506821582-smile.png?w=1080",
         type: "Girls Clothing",
         id: "Girls_Link",
         alt: "girls link"
