@@ -29,7 +29,7 @@ class Single_Top extends Component {
   ]
   componentDidMount() {
     const id = this.props.location.state.shirt;
-    axios.get(`/api//girls/shirts/${id}`)
+    axios.get(`/api/girls/shirts/${id}`)
       .then(result => this.setState({ active: result }))
 
   }
