@@ -31,7 +31,7 @@ body {
   max-width: 30%;
   max-height: 520px;
   background-color: #42a5f5;
-  margin: 10px;
+  margin: 10px 0;
   box-shadow: 2px 1px 6px #000;
 }
 .Clothing_shirts img {
@@ -44,7 +44,7 @@ body {
   min-width: 30%;
   max-height: 520px;
   background-color: lightcoral;
-  margin: 10px;
+  margin: 10px 0;
   box-shadow: 2px 1px 6px #000;
 
 }
@@ -58,7 +58,7 @@ body {
   max-width: 30%;
   max-height: 520px;
   background-color: lightgreen;
-  margin: 10px;
+  margin: 10px 0;
   box-shadow: 2px 1px 6px #000;
 
 }
